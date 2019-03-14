@@ -1,6 +1,6 @@
 ## React + Parcel Boilerplate
 
-I've created a simple basic boilerplate for react.
+I've created a simple basic boilerplate for react using parcel bundler.
 
 - React
 - Parcel for bundler
@@ -15,11 +15,14 @@ I've created a simple basic boilerplate for react.
 **tips**
 
 - To change Milligram's primary color
-  1. go to `milligram.min.css`
-  2. replace `#9b4dca` to `var(--primary-color, #fallbackColor)`
-  3. go back to your project's stylesheet and declare your color
+  - go to `milligram.min.css` in your package
+  - replace `#9b4dca` to `var(--primary-color, #fallbackColor)`
+  - go back to your project's stylesheet and declare your color
   ```css
   :root {
     --primary-color: #somecolor;
   }
   ```
+
+* When having unknown Parcel errors
+* Make sure to delete existing cache using `npm run clear-cache` script.
